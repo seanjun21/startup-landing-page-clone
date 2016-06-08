@@ -4,11 +4,10 @@ html {
 
 *, *:before, *:after {
  	box-sizing: inherit;
- 	border: 1px solid Chocolate;
 }
 
 body {
-    background-color: LightGray;
+    background-color: white;
    	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
@@ -19,6 +18,7 @@ body {
     position: fixed;
 	width: 100%;
 	z-index: 9999;
+	border-bottom: 1px solid #DDD;
 }
 
 .content {
@@ -37,6 +37,7 @@ body {
 	color: #838994;
 	letter-spacing: 0.03em;
 	margin-top: 1.5rem;
+	padding: 0;
 }
 
 .top-navigation .links li {
@@ -108,6 +109,12 @@ h2 {
     text-align: center;
 }
 
+.cases {
+	background-color: white;
+	overflow: auto;
+	padding-bottom: 5rem;
+}
+
 .cases .devices {
     width: 33.3333333%;
     display: inline-block;
@@ -122,5 +129,54 @@ h2 {
     margin: 2.5rem 0px 1.875rem;
 }
 
+/*Footer*/
+.social {
+	background-color: white;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
 
+hr{
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
 
+h5 {
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+.social .icons {
+	padding: 0;
+}
+
+.social .icons li {
+    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: -0.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    cursor: pointer;
+}
+
+.social .fa-twitter {
+    color: #55acee;
+}
+
+.social .fa-facebook {
+	color: #4c66a4;
+}
+
+.social .fa-instagram {
+	color: #3f729b;
+}
+
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
