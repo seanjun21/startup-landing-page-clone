@@ -1,9 +1,16 @@
-body {
-    background-color: LightGray;
+html {
+  	box-sizing: border-box;
 }
 
-div {
-    border: 1px solid Chocolate;
+*, *:before, *:after {
+ 	box-sizing: inherit;
+ 	border: 1px solid Chocolate;
+}
+
+body {
+    background-color: LightGray;
+   	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 /* Navigation Section */
@@ -11,13 +18,81 @@ div {
     background-color: #fff;
 }
 
-.top-navigation > .content {
-    width: 60%;
+.content {
+	width: 60%;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.top-navigation .content {
     height: 4.375rem;
+}
+
+.top-navigation .links {
+	float: right;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	margin-top: 1.5rem;
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 1.45rem;
+}
+
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+/*Background Image*/
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+h1, h3 {
+	font-weight: 300;
+	text-align: center;
+	color: white;
+}
+
+h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+
+h3 {
+	margin-top: -1.25rem;
+	font-size: 1.563rem;	
+}
+
+/*Button*/
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    width: 9.688rem;
+    background-color: #f15a29;
+    color: white;
+    font-size: 1.125rem;
+    display: block;
     margin: 0 auto;
 }
 
-.top-navigation > .content > .logo {
-	height: 4.375rem;
-	margin-left: 14px;
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
 }
