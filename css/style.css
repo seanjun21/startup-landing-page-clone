@@ -7,15 +7,15 @@ html {
 }
 
 body {
-    background-color: white;
+	background-color: white;
    	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
 /* Navigation Section */
 .top-navigation {
-    background-color: #fff;
-    position: fixed;
+	background-color: #fff;
+	position: fixed;
 	width: 100%;
 	z-index: 9999;
 	border-bottom: 1px solid #DDD;
