@@ -28,7 +28,7 @@ body {
 }
 
 .top-navigation .content {
-    height: 4.375rem;
+	height: 4.375rem;
 }
 
 .top-navigation .links {
@@ -46,23 +46,23 @@ body {
 }
 
 .top-navigation .links .active {
-    color: #4c5058;
-    font-weight: 500;
+	color: #4c5058;
+	font-weight: 500;
 }
 
 .top-navigation .links li:hover {
-    cursor: pointer;
-    color: #333333;
+	cursor: pointer;
+	color: #333333;
 }
 
 /*Background Image*/
 .introduction {
-    background-image: url('../images/first-background.jpg');
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 45.938rem;
-    overflow: auto;
+	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
 }
 
 h1, h3 {
